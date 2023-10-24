@@ -6,7 +6,7 @@ It holds data sets that can be freely used by researchers, but also bears notebo
 how to do the data analysis so that the published results can be reproduced by simple scripts.
 
 All methods are contained in the pyGIMLi (Rücker et al. 2017) software. The ERT module holds
-classes for convenient and automated data import, visualization, inversion and export. 
+classes for convenient and automated data import, visualization, inversion and export.
 The whole workflow is illustrated by simple Jupyter notebooks, while the magic is mainly in
 the underlying classes for ERT inversion, timelapse processing, mesh generation etc.
 
@@ -14,13 +14,13 @@ We collected a few cases that are all freely available and well-documented (and 
 
 |Name        |Reference            |dim  |time|data |Info               |
 |------------|---------------------|---  |---:|----:|-------------------|
-|ALERT       |Kuras et al. (2009)  |2D xh|  35| 1200|9 boreholes        |
+|pyGIMLi     |Rücker et al. (2017) |2D   |  10|  740|synth. tracer exp. |
 |Hillslope   |Hübner et al. (2015) |2D   |  24|  800|min. length        |
-|pyGIMLi     |Rücker et al. (2017) |2D   |  xx| xxxx|synth. tracer exp. |
+|ALERT       |Kuras et al. (2009)  |2D xh|  35| 1200|9 boreholes        |
 |Infiltration|Hübner et al. (2017) |3D   | 200| 2850|min. length        |
-|Tsunami     |Ronczka et al. (2014)|2D   | 900|  225|                   |
-|Steelcas    |Ronczka et al. (2015)|3D SC|   9|  450|SEM model, regions |
-|SAMOS       |Ronczka et al. (2020)|3D/2D| 999|     |CEM model          |
+|Tsunami     |Ronczka et al. (2014)|2.5D | 900|  225|                   |
+|Steelcase   |Ronczka et al. (2015)|3D SC|   9|  450|SEM model, regions |
+|SAMOS       |Ronczka et al. (2020)|3D/2D|   7| 3000|CEM model          |
 |TestUM      |Birnstengel et al. ()|3D xh|  70| 2200|                   |
 |DynaDeep    |Skibbe et al. ()     |2D   |  10| 3000|changing topography|
 
