@@ -1,15 +1,17 @@
-# Natural rain infiltration
-This example deals with long term monitoring of rain water infiltration into a
-hillslope aquifers. The study was done by the University of Dresden who did the
-weekly measurements in the test area at Mulda, close to Freiberg.
-A combined Wenner and dipole-dipole array was measured with the lightweight
-4 point light hp instrument from Lippmann electronics.
+# Hillslope infiltration
+## Background
+This data set is on a controlled infiltration experiment described by Hübner
+et al. (2017) at the same site already presented by Hübner et al. (2015), for
+which the data are also available.
 
-# Inversion
-This is a classical example how easily artifacts can arise in the inversion
-result, particularly for shallow infiltration as already shown by Descloitres
-et al. (2003). Therefore it is a good playground for inversion strategies.
+It represents one of the most extensive data sets available with 200 frames
+measured every 30 minutes. A 3D grid of 392 electrodes was used with almost
+3000 measurements so that more than 50000 single data points are present.
+The quality of the data, measured with the Geotom instrument, is very good.
 
-# References
+The results show the infiltration of water and its movement in the layers of
+a hillslope catchment and allows hints to runoff and flood prediction.
+
+## References
 * Hübner, R., Heller, K., Günther, T. & Kleber, A. (2015): Monitoring hillslope moisture dynamics with surface ERT for enhancing spatial significance of hydrometric point measurements. Hydrology and Earth System Sciences 19(1), 225-240, doi:10.5194/hess-19-225-2015.
-* Descloitres, M., Ribolzi, O., and Le Troquer, Y.: Study of infiltration in a Sahelian gully erosion area using time-lapse resistivity mapping, Catena, 53, 229–253, 2003.
+* Hübner, R., Günther, T., Heller, K., Noell, U. & Kleber, A. (2017): Impacts of a capillary barrier on infiltration and subsurface stormflow in layered slope deposits monitored with 3-D ERT and hydrometric measurements. Hydrol. Earth Syst. Sci. 21, 5181-5199, doi:10.5194/hess-21-5181-2017.
